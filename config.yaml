@@ -15,13 +15,13 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-    - id: www-thehomesihavemade-com
+  - id: thehomesihavemade-com
     name: www.thehomesihavemade.com
     url: 'https://www.thehomesihavemade.com/'
     method: GET
     expectStatus: 200
     
-  - id: www-wholekitchensink-com
+  - id: wholekitchensink-com
     name: www.wholekitchensink.com
     url: 'https://www.wholekitchensink.com'
     method: GET
