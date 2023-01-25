@@ -15,32 +15,62 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-    - id: www-google-com
-    name: www.google.com
-    url: 'https://www.google.com/'
+    - id: www-thehomesihavemade-com
+    name: www.thehomesihavemade.com
+    url: 'https://www.thehomesihavemade.com/'
     method: GET
     expectStatus: 200
-
-    - id: www-facebook-com
-    name: www.facebook.com
-    url: 'https://www.facebook.com/'
-    method: GET
-    expectStatus: 200 
-
-    - id: thehomesihavemade-com
-    name: thehomesihavemade.com
-    url: 'https://thehomesihavemade.com'
-    method: GET
-    expectStatus: 200
-
-    - id: wholekitchensink-com
-    name: wholekitchensink.com
+    
+  - id: www-wholekitchensink-com
+    name: www.wholekitchensink.com
     url: 'https://www.wholekitchensink.com'
     method: GET
-    expectStatus: 200  
-
-    - id: Momcrieff-com
-    name: momcrieff.com
-    url: 'https://momcrieff.com'
+    expectStatus: 200
+    
+  - id: Momcrieff-com
+    name: www.momcrieff.com
+    url: 'https://www.momcrieff.com'
+    method: GET
+    expectStatus: 200
+    
+  - id: petiteinparis-com
+    name: www.petiteinparis.com
+    url: 'https://www.petiteinparis.com'
+    method: GET
+    expectStatus: 200
+    
+  - id: mypureplants-com
+    name: www.mypureplants.com
+    url: 'https://www.mypureplants.com'
+    method: GET
+    expectStatus: 200
+    
+  - id: planetnatural-com
+    name: www.planetnatural.com
+    url: 'https://www.planetnatural.com'
+    method: GET
+    expectStatus: 200
+    
+  - id: thegadgetbuyer-com
+    name: www.thegadgetbuyer.com
+    url: 'https://www.thegadgetbuyer.com'
+    method: GET
+    expectStatus: 200
+   
+  - id: wellkeptwallet-com
+    name: www.wellkeptwallet.com
+    url: 'https://www.wellkeptwallet.com'
+    method: GET
+    expectStatus: 200
+    
+  - id: nerdsandscoundrels-com
+    name: www.nerdsandscoundrels.com
+    url: 'https://www.nerdsandscoundrels.com'
+    method: GET
+    expectStatus: 200
+    
+  - id: parkedinparadise-com
+    name: www.parkedinparadise.com
+    url: 'https://www.parkedinparadise.com'
     method: GET
     expectStatus: 200
