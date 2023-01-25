@@ -25,7 +25,7 @@ monitors:
     name: www.facebook.com
     url: 'https://www.facebook.com/'
     method: GET
-    expectStatus: 200
+    expectStatus: 200 
 
     - id: thehomesihavemade-com
     name: thehomesihavemade.com
@@ -40,12 +40,6 @@ monitors:
     expectStatus: 200  
 
     - id: Momcrieff-com
-    name: momcrieff.com
-    url: 'https://momcrieff.com'
-    method: GET
-    expectStatus: 200
-
-    - id: Momcrieff-com    
     name: momcrieff.com
     url: 'https://momcrieff.com'
     method: GET
