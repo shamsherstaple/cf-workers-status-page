@@ -15,15 +15,15 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-    - id: google-com
-    name: google.com
-    url: 'https://google.com'
+    - id: www-google-com
+    name: www.google.com
+    url: 'https://www.google.com/'
     method: GET
     expectStatus: 200
 
-    - id: facebook-com
-    name: facebook.com
-    url: 'https://facebook.com'
+    - id: www-facebook-com
+    name: www.facebook.com
+    url: 'https://www.facebook.com/'
     method: GET
     expectStatus: 200
 
