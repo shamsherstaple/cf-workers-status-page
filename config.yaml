@@ -16,32 +16,32 @@ settings:
 
 monitors:
   - id: thehomesihavemade-com
-    name: www.thehomesihavemade.com
-    url: 'https://www.thehomesihavemade.com/'
+    name: thehomesihavemade.com
+    url: 'https://thehomesihavemade.com/'
     method: GET
     expectStatus: 200
     
-  - id: wholekitchensink-com
+  - id: www-wholekitchensink-com
     name: www.wholekitchensink.com
     url: 'https://www.wholekitchensink.com'
     method: GET
     expectStatus: 200
     
   - id: Momcrieff-com
-    name: www.momcrieff.com
-    url: 'https://www.momcrieff.com'
+    name: momcrieff.com
+    url: 'https://momcrieff.com'
     method: GET
     expectStatus: 200
     
   - id: petiteinparis-com
-    name: www.petiteinparis.com
-    url: 'https://www.petiteinparis.com'
+    name: petiteinparis.com
+    url: 'https://petiteinparis.com'
     method: GET
     expectStatus: 200
     
   - id: mypureplants-com
-    name: www.mypureplants.com
-    url: 'https://www.mypureplants.com'
+    name: mypureplants.com
+    url: 'https://mypureplants.com'
     method: GET
     expectStatus: 200
     
@@ -52,14 +52,14 @@ monitors:
     expectStatus: 200
     
   - id: thegadgetbuyer-com
-    name: www.thegadgetbuyer.com
-    url: 'https://www.thegadgetbuyer.com'
+    name: thegadgetbuyer.com
+    url: 'https://thegadgetbuyer.com'
     method: GET
     expectStatus: 200
    
   - id: wellkeptwallet-com
-    name: www.wellkeptwallet.com
-    url: 'https://www.wellkeptwallet.com'
+    name: wellkeptwallet.com
+    url: 'https://wellkeptwallet.com'
     method: GET
     expectStatus: 200
     
